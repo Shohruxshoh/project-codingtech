@@ -8,7 +8,7 @@ import { toast } from '@/components/custom-toast';
 import { useTranslation } from 'react-i18next';
 import { usePage, router } from '@inertiajs/react';
 import ReactCountryFlag from 'react-country-flag';
-import { cn } from '../lib/utils';
+import { cn } from '@/lib/utils';
 import { CreateLanguageModal } from '@/components/create-language-modal';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog';
 import { Plus, Trash2, Power, RefreshCw, Lock } from 'lucide-react';
