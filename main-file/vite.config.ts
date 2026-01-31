@@ -56,13 +56,12 @@ export default defineConfig({
     jsxImportSource: 'react',
   },
 
-resolve: {
-  alias: {
-    '/resources/js': resolve(__dirname, 'resources/js'),
-    'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'resources/js'),          // ✅ QO‘SHILDI
+      'ziggy-js': resolve(__dirname, 'vendor/tightenco/ziggy'),
+    },
   },
-},
-
 
   build: {
     rollupOptions: {
